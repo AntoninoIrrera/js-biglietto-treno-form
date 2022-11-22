@@ -1,5 +1,5 @@
 
-const invioDati = document.querySelector("a.bg-info");
+const invioDati = document.querySelector("a.btn-outline-success");
 const age = document.getElementById("age");
 const numeroKm = document.getElementById("numeroKm");
 
