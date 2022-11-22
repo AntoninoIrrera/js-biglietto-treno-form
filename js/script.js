@@ -3,12 +3,12 @@ const invioDati = document.querySelector("a.bg-info");
 const age = document.getElementById("age");
 const numeroKm = document.getElementById("numeroKm");
 
-let prezzoBigliettoBase;
-let prezzoBigliettoUnder;
-let prezzoBigliettoOver;
 
 invioDati.addEventListener("click", function(){
-
+    
+    let prezzoBigliettoBase;
+    let prezzoBigliettoUnder;
+    let prezzoBigliettoOver;
 
     prezzoBigliettoBase = 0.2762 * numeroKm.value;
 
