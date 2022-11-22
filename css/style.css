@@ -1,0 +1,15 @@
+header{
+    height: 130px;
+    background-color: green;
+}
+
+
+main{
+    height: 75vh;
+}
+
+footer{
+    height: calc(100vh - (75vh + 130px));
+    background-color: red;
+}
+

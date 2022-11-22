@@ -13,22 +13,56 @@
     <body>
 
         <header>
-
+            <nav class="navbar px-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo-navbar.png" alt="Logo" class="d-inline-block align-text-top">
+                    </a>
+                    <a href="#" class="navbar-brand">
+                        Nino Company
+                    </a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Inserisci cosa vuoi cercare" aria-label="Search">
+                        <button class="btn bg-white" type="submit">Cerca</button>
+                    </form>
+                </div>
+            </nav>
         </header>
 
         <main>
-            <label for="age">inserisci l'età</label>
-            <input type="number" name="age" id="age">
-            <label for="numeroKm">inserisci il numero di kilemotri da percorrere</label>
-            <input type="number" name="numeroKm" id="numeroKm">
-            <a href="#" class="btn">Invio</a>
-            <pre id="output">
-
-            </pre>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <div class="mb-3">
+                            <label for="numeroKm" class="form-label">Inserisci i chilometri che vuoi percorrere</label>
+                            <input name="numeroKm" type="number" class="form-control" id="numeroKm" placeholder="Inserisci i chilometri che vuoi percorrere">
+                        </div>
+                        <div class="mb-3">
+                            <label for="age" class="form-label">Inserisci la tua età</label>
+                            <input name="age" type="number" class="form-control" id="age" placeholder="Inserisci la tua età">
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn mt-4 bg-info">Invio</a>
+                            <h2 class="mt-5" id="output"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer>
-
+            <div class="container-fluid h-100">
+                <div class="row text-center h-100">
+                    <div class="col-12 pt-3">
+                        <a class="text-decoration-none fw-bold text-black" href="#">
+                            Prenota il tuo biglietto 
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-black fw-bold">credit's by Bobo</p>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <!-- link js botstrap -->
